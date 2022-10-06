@@ -12,12 +12,12 @@ Creates a local socket server on port 22239.
 Golang then sends a packet with the HTML encoded in bytes, which is then converted to a PDF in the Python script.
 
 ```
-go get github.com/Nigel2392/GoPDF
+go get github.com/Nigel2392/PDFUtils
 ```
 Then import the package in go:
 ```
 import (
-	"github.com/Nigel2392/GoPDF/PDFUtils"
+	"github.com/Nigel2392/PDFUtils"
 )
 ```
 To get a PDF from the HTML:
