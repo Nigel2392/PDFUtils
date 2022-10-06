@@ -1,0 +1,6 @@
+@page {
+    size: a4 portrait;
+    @frame content_frame {          /* Content Frame */
+        left: 50pt; width: 512pt; top: 30pt; height: 712pt;
+    }
+}
