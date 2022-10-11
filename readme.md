@@ -9,7 +9,7 @@ It will place this in your current working directory to be able to execute it.
 This EXE is a compiled Python script, which is around 6 seconds slower than when using Python3.
 
 Creates a local socket server on port 22239. 
-Golang then sends a packet with the HTML encoded in bytes, which is then converted to a PDF in the Python script.
+Golang then sends the data as HTML encoded in bytes, which is then converted to a PDF in the Python script.
 
 ```
 go get github.com/Nigel2392/PDFUtils
